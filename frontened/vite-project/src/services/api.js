@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://shop-kart-mauve-one.vercel.app/',
+  baseURL: '/api',
   withCredentials: true, 
 });
 
